@@ -1,0 +1,23 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'net.masterthought', name: 'cucumber-reporting', version: '4.11.1'
+    testCompile 'com.intuit.karate:karate-junit4:0.9.4'
+    testCompile 'com.intuit.karate:karate-apache:0.9.6'
+}
+
+test {
+    // pull cucumber options into the cucumber jvm
+    systemProperty "cucumber.options", System.properties.getProperty("cucumber.options")
+    // pull karate options into the jvm
+    systemProperty "karate.env", System.properties.getProperty("karate.env")
+    testLogging.showStandardStreams = true
+}
+
+clean.doFirst {
+    delete "${rootDir}/target/"
+}

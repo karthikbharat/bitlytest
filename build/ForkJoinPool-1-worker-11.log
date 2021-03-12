@@ -1,0 +1,81 @@
+00:43:35.375 request:
+1 > GET https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+00:43:35.822 response time in milliseconds: 442.52
+1 < 200
+1 < Alt-Svc: clear
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: application/json
+1 < Date: Fri, 12 Mar 2021 00:43:35 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+{"links":[{"created_at":"2021-03-12T00:19:45+0000","id":"bit.ly/3qG3Z50","link":"https://bit.ly/3qG3Z50","custom_bitlinks":[],"long_url":"https://www.bbc.com.delete/","title":"Newpp","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:43:23+0000","id":"bit.ly/3qAb1s1","link":"https://bit.ly/3qAb1s1","custom_bitlinks":[],"long_url":"https://www.bbc.co.us/","title":"tesrt","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:42:57+0000","id":"bit.ly/3bDhCOg","link":"https://bit.ly/3bDhCOg","custom_bitlinks":[],"long_url":"https://www.bbc.co.usa1212/","title":"tesrt","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:09:22+0000","id":"bit.ly/3rzM0i5","link":"https://bit.ly/3rzM0i5","custom_bitlinks":[],"long_url":"https://www.bbc.co.uuuuu/","title":"test","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:00:33+0000","id":"bit.ly/30zP8P7","link":"https://bit.ly/30zP8P7","custom_bitlinks":[],"long_url":"https://www.bbc.co.ken/","title":"test","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":["tr","api"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T21:39:34+0000","id":"bit.ly/2OHRybK","link":"https://bit.ly/2OHRybK","custom_bitlinks":[],"long_url":"https://www.bbc.co.ue/","title":"test","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":["tr","api"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T21:38:24+0000","id":"bit.ly/3qGe5TD","link":"https://bit.ly/3qGe5TD","custom_bitlinks":[],"long_url":"https://www.bbc.co.edu/","title":"Bitly API post test2","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":["tr","api"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T19:21:23+0000","id":"bit.ly/38tyMM8","link":"https://bit.ly/38tyMM8","custom_bitlinks":[],"long_url":"https://www.bbc.co.tr/","title":"Bitly API post test2","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":["tr","api"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T19:17:21+0000","id":"bit.ly/2Na0Gph","link":"https://bit.ly/2Na0Gph","custom_bitlinks":[],"long_url":"https://www.bbc.co.dr/","title":"Bitly API post test2","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":["dr","api"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T18:39:46+0000","id":"bit.ly/3qB7Ujx","link":"https://bit.ly/3qB7Ujx","custom_bitlinks":[],"long_url":"https://www.bbc.co.eu/","title":"Bitly API post test2","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":["bitly","api"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T18:37:21+0000","id":"bit.ly/3bF1a05","link":"https://bit.ly/3bF1a05","custom_bitlinks":[],"long_url":"https://www.bbc.co.in/","title":"Bitly API post test2","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":["bitly","api"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-10T18:31:06+0000","id":"bbc.in/3cjYGTR","link":"https://bbc.in/3cjYGTR","custom_bitlinks":[],"long_url":"https://www.bbc.com/","title":"Bitly API post test2","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":["tr","api"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T23:38:42+0000","id":"bbc.in/30qdAT7","link":"https://bbc.in/30qdAT7","custom_bitlinks":[],"long_url":"https://www.bbc.co.uk/","title":"Bitly API post test","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":["bitly","api"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:53+0000","id":"bit.ly/38lg8Gk","link":"https://bit.ly/38lg8Gk","custom_bitlinks":[],"long_url":"http://admin.com/","title":"UNIX and Linux System Administration Handbook, Fifth Edtion","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":["Test_Tag"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:36+0000","id":"bit.ly/3ceZUjb","link":"https://bit.ly/3ceZUjb","custom_bitlinks":[],"long_url":"http://test.com/","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":["Test_Tag"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:14+0000","id":"bit.ly/2ODsGly","link":"https://bit.ly/2ODsGly","custom_bitlinks":[],"long_url":"https://www.google.com/","title":"Google share","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:03:30+0000","id":"bit.ly/3bvcBqO","link":"https://bit.ly/3bvcBqO","custom_bitlinks":[],"long_url":"http://karthik.com/","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}],"pagination":{"prev":"","next":"","size":50,"page":1,"total":17}}
+
+00:43:35.838 request:
+1 > POST https://api-ssl.bitly.com/v4/groups
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+
+00:43:35.993 response time in milliseconds: 154.28
+1 < 403
+1 < Alt-Svc: clear
+1 < Content-Length: 23
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: application/json
+1 < Date: Fri, 12 Mar 2021 00:43:35 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+{"message":"FORBIDDEN"}
+
+00:43:36.000 request:
+1 > DELETE https://api-ssl.bitly.com/v4/groups
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+
+00:43:36.153 response time in milliseconds: 152.02
+1 < 405
+1 < Allow: GET, POST, OPTIONS
+1 < Alt-Svc: clear
+1 < Content-Length: 19
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Fri, 12 Mar 2021 00:43:36 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: [nosniff, nosniff]
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+Method Not Allowed
+
+

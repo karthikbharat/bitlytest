@@ -1,0 +1,108 @@
+00:43:35.375 request:
+1 > GET https://api-ssl.bitly.com/v4/groups
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+00:43:35.758 response time in milliseconds: 381.83
+1 < 200
+1 < Alt-Svc: clear
+1 < Content-Length: 300
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: application/json
+1 < Date: Fri, 12 Mar 2021 00:43:35 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+{"groups":[{"created":"2021-03-09T18:00:50+0000","modified":"2021-03-09T18:00:50+0000","bsds":[],"guid":"Bl39i27Ji5U","organization_guid":"Ol39iJl8uVl","name":"bharathamanik","is_active":true,"role":"org-admin","references":{"organization":"https://api-ssl.bitly.com/v4/organizations/Ol39iJl8uVl"}}]}
+
+00:43:35.782 request:
+1 > GET https://api-ssl.bitly.com/v4/groups
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+00:43:35.968 response time in milliseconds: 184.99
+1 < 200
+1 < Alt-Svc: clear
+1 < Content-Length: 300
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: application/json
+1 < Date: Fri, 12 Mar 2021 00:43:35 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+{"groups":[{"created":"2021-03-09T18:00:50+0000","modified":"2021-03-09T18:00:50+0000","bsds":[],"guid":"Bl39i27Ji5U","organization_guid":"Ol39iJl8uVl","name":"bharathamanik","is_active":true,"role":"org-admin","references":{"organization":"https://api-ssl.bitly.com/v4/organizations/Ol39iJl8uVl"}}]}
+
+00:43:35.985 request:
+1 > PUT https://api-ssl.bitly.com/v4/groups
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+
+00:43:36.144 response time in milliseconds: 158.53
+1 < 405
+1 < Allow: GET, POST, OPTIONS
+1 < Alt-Svc: clear
+1 < Content-Length: 19
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Fri, 12 Mar 2021 00:43:36 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: [nosniff, nosniff]
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+Method Not Allowed
+
+
+00:43:36.152 request:
+1 > PATCH https://api-ssl.bitly.com/v4/groups
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+
+00:43:36.295 response time in milliseconds: 143.04
+1 < 405
+1 < Allow: GET, POST, OPTIONS
+1 < Alt-Svc: clear
+1 < Content-Length: 19
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Fri, 12 Mar 2021 00:43:36 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: [nosniff, nosniff]
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+Method Not Allowed
+
+

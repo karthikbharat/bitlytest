@@ -1,0 +1,79 @@
+00:43:35.374 request:
+1 > GET https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+00:43:35.759 response time in milliseconds: 382.28
+1 < 200
+1 < Alt-Svc: clear
+1 < Content-Length: 1285
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: application/json
+1 < Date: Fri, 12 Mar 2021 00:43:35 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+{"links":[{"created_at":"2021-03-09T18:04:53+0000","id":"bit.ly/38lg8Gk","link":"https://bit.ly/38lg8Gk","custom_bitlinks":[],"long_url":"http://admin.com/","title":"UNIX and Linux System Administration Handbook, Fifth Edtion","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":["Test_Tag"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:14+0000","id":"bit.ly/2ODsGly","link":"https://bit.ly/2ODsGly","custom_bitlinks":[],"long_url":"https://www.google.com/","title":"Google share","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:03:30+0000","id":"bit.ly/3bvcBqO","link":"https://bit.ly/3bvcBqO","custom_bitlinks":[],"long_url":"http://karthik.com/","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}],"sorted_links":[{"id":"bit.ly/2ODsGly","clicks":2},{"id":"bit.ly/3bvcBqO","clicks":1},{"id":"bit.ly/38lg8Gk","clicks":1}]}
+
+00:43:35.782 request:
+1 > POST https://api-ssl.bitly.com/v4/bitlinks
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Length: 98
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"long_url":"https://www.bbc.co.ken/","domain":"bit.ly","group_guid":"Bl39i27Ji5U","title":"test"}
+
+00:43:35.973 response time in milliseconds: 190.47
+1 < 200
+1 < Alt-Svc: clear
+1 < Content-Length: 283
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: application/json
+1 < Date: Fri, 12 Mar 2021 00:43:35 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+{"created_at":"2021-03-11T23:00:33+0000","id":"bit.ly/30zP8P7","link":"https://bit.ly/30zP8P7","custom_bitlinks":[],"long_url":"https://www.bbc.co.ken/","title":"test","archived":false,"tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}
+
+00:43:35.990 request:
+1 > POST https://api-ssl.bitly.com/v4/bitlinks
+1 > Accept: */*
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 > Connection: Keep-Alive
+1 > Content-Length: 37
+1 > Content-Type: application/json
+1 > Host: api-ssl.bitly.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"long": "https://www.bbc.co.uuuuu/"}
+
+00:43:36.159 response time in milliseconds: 168.37
+1 < 400
+1 < Alt-Svc: clear
+1 < Content-Length: 158
+1 < Content-Security-Policy: default-src 'none
+1 < Content-Type: application/json
+1 < Date: Fri, 12 Mar 2021 00:43:36 GMT
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 google
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=blockFilter
+{"message":"INVALID_ARG_LONG_URL","resource":"bitlinks","description":"The value provided is invalid.","errors":[{"field":"long_url","error_code":"invalid"}]}
+

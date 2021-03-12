@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.groups.links_sort</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">7</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">0</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2021-03-12 10:09:31 pm</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[4.1:53]">[4.1:53] validate clicks based on sort unit_reference-------{defaultValue} </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[4.2:54]">[4.2:54] validate clicks based on sort unit_reference--------{minimumRange} </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[4.3:55]">[4.3:55] validate clicks based on sort unit_reference--------{maximumRange} </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[4.4:56]">[4.4:56] validate clicks based on sort size--------{minSize} </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[4.5:57]">[4.5:57] validate clicks based on sort size--------{maxSize} </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[4.6:58]">[4.6:58] validate clicks based on sort units--------{defaultUnits} </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[4.7:59]">[4.7:59] validate clicks based on sort unit--------{defaultUnit} </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/groups.links_sort.feature</span><span class="feature-description">Group bitlinks sort function tests</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4.1:53]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">e2e</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario Outline: [4.1:53]</span><span class="scenario-name">validate clicks based on sort unit_reference-------{defaultValue} </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 556</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[4.1:53]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[4.1:53]bg">
+                        <div class="step-container" id="1">
+                            <div class="step-ref bg-step">1</div>
+                            <div class="step-cell passed">* url 'https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks'</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row" data-parent="[4.1:53]bg">
+                        <div class="step-container" id="2">
+                            <div class="step-ref bg-step">2</div>
+                            <div class="step-cell passed">* configure headers = read('classpath:headers.js')</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">Given param unit_reference = ''</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">545</div>
+                    </div>
+                    <div class="preformatted" data-parent="4">22:09:29.537 request:
+1 &gt; GET https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks?unit_reference=
+1 &gt; Accept: */*
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Type: application/json
+1 &gt; Host: api-ssl.bitly.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:09:29.872 response time in milliseconds: 332.46
+1 &lt; 200
+1 &lt; Alt-Svc: clear
+1 &lt; Content-Security-Policy: default-src 'none
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Mar 2021 22:09:29 GMT
+1 &lt; Server: nginx
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Via: 1.1 google
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-XSS-Protection: 1; mode=blockFilter
+{"links":[{"created_at":"2021-03-09T18:03:30+0000","id":"bit.ly/3bvcBqO","link":"https://bit.ly/3bvcBqO","custom_bitlinks":[],"long_url":"http://karthik.com/","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:53+0000","id":"bit.ly/38lg8Gk","link":"https://bit.ly/38lg8Gk","custom_bitlinks":[],"long_url":"http://admin.com/","title":"UNIX and Linux System Administration Handbook, Fifth Edtion","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":["Test_Tag"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:14+0000","id":"bit.ly/2ODsGly","link":"https://bit.ly/2ODsGly","custom_bitlinks":[],"long_url":"https://www.google.com/","title":"Google share","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:09:22+0000","id":"bit.ly/3rzM0i5","link":"https://bit.ly/3rzM0i5","custom_bitlinks":[],"long_url":"https://www.bbc.co.uuuuu/","title":"test","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:43:23+0000","id":"bit.ly/3qAb1s1","link":"https://bit.ly/3qAb1s1","custom_bitlinks":[],"long_url":"https://www.bbc.co.us/","title":"tesrt","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}],"sorted_links":[{"id":"bit.ly/2ODsGly","clicks":2},{"id":"bit.ly/3rzM0i5","clicks":1},{"id":"bit.ly/3qAb1s1","clicks":1},{"id":"bit.ly/3bvcBqO","clicks":1},{"id":"bit.ly/38lg8Gk","clicks":1}]}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">* def result = response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">* match result.sorted_links == [{"id": "bit.ly/2ODsGly","clicks": 2},{"id": "bit.ly/3rzM0i5","clicks": 1},{"id": "bit.ly/3qAb1s1","clicks": 1},{"id": "bit.ly/3bvcBqO","clicks": 1},{"id": "bit.ly/38lg8Gk","clicks": 1}]</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4.2:54]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">e2e</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario Outline: [4.2:54]</span><span class="scenario-name">validate clicks based on sort unit_reference--------{minimumRange} </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 206</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[4.2:54]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[4.2:54]bg">
+                        <div class="step-container" id="8">
+                            <div class="step-ref bg-step">8</div>
+                            <div class="step-cell passed">* url 'https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[4.2:54]bg">
+                        <div class="step-container" id="9">
+                            <div class="step-ref bg-step">9</div>
+                            <div class="step-cell passed">* configure headers = read('classpath:headers.js')</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">Given param unit_reference = '2021-03-09T15:04:05-0700'</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">201</div>
+                    </div>
+                    <div class="preformatted" data-parent="11">22:09:29.901 request:
+1 &gt; GET https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks?unit_reference=2021-03-09T15%3A04%3A05-0700
+1 &gt; Accept: */*
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Type: application/json
+1 &gt; Host: api-ssl.bitly.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:09:30.095 response time in milliseconds: 193.16
+1 &lt; 200
+1 &lt; Alt-Svc: clear
+1 &lt; Content-Length: 1285
+1 &lt; Content-Security-Policy: default-src 'none
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Mar 2021 22:09:30 GMT
+1 &lt; Server: nginx
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Via: 1.1 google
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-XSS-Protection: 1; mode=blockFilter
+{"links":[{"created_at":"2021-03-09T18:04:14+0000","id":"bit.ly/2ODsGly","link":"https://bit.ly/2ODsGly","custom_bitlinks":[],"long_url":"https://www.google.com/","title":"Google share","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:03:30+0000","id":"bit.ly/3bvcBqO","link":"https://bit.ly/3bvcBqO","custom_bitlinks":[],"long_url":"http://karthik.com/","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:53+0000","id":"bit.ly/38lg8Gk","link":"https://bit.ly/38lg8Gk","custom_bitlinks":[],"long_url":"http://admin.com/","title":"UNIX and Linux System Administration Handbook, Fifth Edtion","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":["Test_Tag"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}],"sorted_links":[{"id":"bit.ly/2ODsGly","clicks":2},{"id":"bit.ly/3bvcBqO","clicks":1},{"id":"bit.ly/38lg8Gk","clicks":1}]}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref passed">12</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="13">
+                            <div class="step-ref passed">13</div>
+                            <div class="step-cell passed">* def result = response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="14">
+                            <div class="step-ref passed">14</div>
+                            <div class="step-cell passed">* match result.sorted_links == [{"id": "bit.ly/2ODsGly","clicks": 2},{"id": "bit.ly/3bvcBqO","clicks": 1},{"id": "bit.ly/38lg8Gk","clicks": 1}]</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4.3:55]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">e2e</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario Outline: [4.3:55]</span><span class="scenario-name">validate clicks based on sort unit_reference--------{maximumRange} </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 181</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[4.3:55]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[4.3:55]bg">
+                        <div class="step-container" id="15">
+                            <div class="step-ref bg-step">15</div>
+                            <div class="step-cell passed">* url 'https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[4.3:55]bg">
+                        <div class="step-container" id="16">
+                            <div class="step-ref bg-step">16</div>
+                            <div class="step-cell passed">* configure headers = read('classpath:headers.js')</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="17">
+                            <div class="step-ref passed">17</div>
+                            <div class="step-cell passed">Given param unit_reference = '2021-03-12T00:00:00-0000'</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="18">
+                            <div class="step-ref passed">18</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">177</div>
+                    </div>
+                    <div class="preformatted" data-parent="18">22:09:30.110 request:
+1 &gt; GET https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks?unit_reference=2021-03-12T00%3A00%3A00-0000
+1 &gt; Accept: */*
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Type: application/json
+1 &gt; Host: api-ssl.bitly.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:09:30.283 response time in milliseconds: 171.40
+1 &lt; 200
+1 &lt; Alt-Svc: clear
+1 &lt; Content-Security-Policy: default-src 'none
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Mar 2021 22:09:30 GMT
+1 &lt; Server: nginx
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Via: 1.1 google
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-XSS-Protection: 1; mode=blockFilter
+{"links":[{"created_at":"2021-03-11T23:43:23+0000","id":"bit.ly/3qAb1s1","link":"https://bit.ly/3qAb1s1","custom_bitlinks":[],"long_url":"https://www.bbc.co.us/","title":"tesrt","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:03:30+0000","id":"bit.ly/3bvcBqO","link":"https://bit.ly/3bvcBqO","custom_bitlinks":[],"long_url":"http://karthik.com/","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:53+0000","id":"bit.ly/38lg8Gk","link":"https://bit.ly/38lg8Gk","custom_bitlinks":[],"long_url":"http://admin.com/","title":"UNIX and Linux System Administration Handbook, Fifth Edtion","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":["Test_Tag"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:14+0000","id":"bit.ly/2ODsGly","link":"https://bit.ly/2ODsGly","custom_bitlinks":[],"long_url":"https://www.google.com/","title":"Google share","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:09:22+0000","id":"bit.ly/3rzM0i5","link":"https://bit.ly/3rzM0i5","custom_bitlinks":[],"long_url":"https://www.bbc.co.uuuuu/","title":"test","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}],"sorted_links":[{"id":"bit.ly/2ODsGly","clicks":2},{"id":"bit.ly/3rzM0i5","clicks":1},{"id":"bit.ly/3qAb1s1","clicks":1},{"id":"bit.ly/3bvcBqO","clicks":1},{"id":"bit.ly/38lg8Gk","clicks":1}]}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="19">
+                            <div class="step-ref passed">19</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="20">
+                            <div class="step-ref passed">20</div>
+                            <div class="step-cell passed">* def result = response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="21">
+                            <div class="step-ref passed">21</div>
+                            <div class="step-cell passed">* match result.sorted_links == [{"id": "bit.ly/2ODsGly","clicks": 2},{"id": "bit.ly/3rzM0i5","clicks": 1},{"id": "bit.ly/3qAb1s1","clicks": 1},{"id": "bit.ly/3bvcBqO","clicks": 1},{"id": "bit.ly/38lg8Gk","clicks": 1}]</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4.4:56]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">e2e</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario Outline: [4.4:56]</span><span class="scenario-name">validate clicks based on sort size--------{minSize} </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 177</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[4.4:56]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[4.4:56]bg">
+                        <div class="step-container" id="22">
+                            <div class="step-ref bg-step">22</div>
+                            <div class="step-cell passed">* url 'https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[4.4:56]bg">
+                        <div class="step-container" id="23">
+                            <div class="step-ref bg-step">23</div>
+                            <div class="step-cell passed">* configure headers = read('classpath:headers.js')</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="24">
+                            <div class="step-ref passed">24</div>
+                            <div class="step-cell passed">Given param size = 1</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="25">
+                            <div class="step-ref passed">25</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">173</div>
+                    </div>
+                    <div class="preformatted" data-parent="25">22:09:30.299 request:
+1 &gt; GET https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks?size=1
+1 &gt; Accept: */*
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Type: application/json
+1 &gt; Host: api-ssl.bitly.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:09:30.467 response time in milliseconds: 167.57
+1 &lt; 200
+1 &lt; Alt-Svc: clear
+1 &lt; Content-Length: 439
+1 &lt; Content-Security-Policy: default-src 'none
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Mar 2021 22:09:30 GMT
+1 &lt; Server: nginx
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Via: 1.1 google
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-XSS-Protection: 1; mode=blockFilter
+{"links":[{"created_at":"2021-03-09T18:04:14+0000","id":"bit.ly/2ODsGly","link":"https://bit.ly/2ODsGly","custom_bitlinks":[],"long_url":"https://www.google.com/","title":"Google share","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}],"sorted_links":[{"id":"bit.ly/2ODsGly","clicks":2}]}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="26">
+                            <div class="step-ref passed">26</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="27">
+                            <div class="step-ref passed">27</div>
+                            <div class="step-cell passed">* def result = response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="28">
+                            <div class="step-ref passed">28</div>
+                            <div class="step-cell passed">* match result.sorted_links == [{"clicks":2,"id":"bit.ly\/2ODsGly"}]</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4.5:57]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">e2e</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario Outline: [4.5:57]</span><span class="scenario-name">validate clicks based on sort size--------{maxSize} </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 192</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[4.5:57]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[4.5:57]bg">
+                        <div class="step-container" id="29">
+                            <div class="step-ref bg-step">29</div>
+                            <div class="step-cell passed">* url 'https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[4.5:57]bg">
+                        <div class="step-container" id="30">
+                            <div class="step-ref bg-step">30</div>
+                            <div class="step-cell passed">* configure headers = read('classpath:headers.js')</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="31">
+                            <div class="step-ref passed">31</div>
+                            <div class="step-cell passed">Given param size = 5</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="32">
+                            <div class="step-ref passed">32</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">188</div>
+                    </div>
+                    <div class="preformatted" data-parent="32">22:09:30.485 request:
+1 &gt; GET https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks?size=5
+1 &gt; Accept: */*
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Type: application/json
+1 &gt; Host: api-ssl.bitly.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:09:30.668 response time in milliseconds: 181.62
+1 &lt; 200
+1 &lt; Alt-Svc: clear
+1 &lt; Content-Security-Policy: default-src 'none
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Mar 2021 22:09:30 GMT
+1 &lt; Server: nginx
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Via: 1.1 google
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-XSS-Protection: 1; mode=blockFilter
+{"links":[{"created_at":"2021-03-09T18:04:14+0000","id":"bit.ly/2ODsGly","link":"https://bit.ly/2ODsGly","custom_bitlinks":[],"long_url":"https://www.google.com/","title":"Google share","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:09:22+0000","id":"bit.ly/3rzM0i5","link":"https://bit.ly/3rzM0i5","custom_bitlinks":[],"long_url":"https://www.bbc.co.uuuuu/","title":"test","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:43:23+0000","id":"bit.ly/3qAb1s1","link":"https://bit.ly/3qAb1s1","custom_bitlinks":[],"long_url":"https://www.bbc.co.us/","title":"tesrt","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:03:30+0000","id":"bit.ly/3bvcBqO","link":"https://bit.ly/3bvcBqO","custom_bitlinks":[],"long_url":"http://karthik.com/","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:53+0000","id":"bit.ly/38lg8Gk","link":"https://bit.ly/38lg8Gk","custom_bitlinks":[],"long_url":"http://admin.com/","title":"UNIX and Linux System Administration Handbook, Fifth Edtion","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":["Test_Tag"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}],"sorted_links":[{"id":"bit.ly/2ODsGly","clicks":2},{"id":"bit.ly/3rzM0i5","clicks":1},{"id":"bit.ly/3qAb1s1","clicks":1},{"id":"bit.ly/3bvcBqO","clicks":1},{"id":"bit.ly/38lg8Gk","clicks":1}]}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="33">
+                            <div class="step-ref passed">33</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="34">
+                            <div class="step-ref passed">34</div>
+                            <div class="step-cell passed">* def result = response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="35">
+                            <div class="step-ref passed">35</div>
+                            <div class="step-cell passed">* match result.sorted_links == [{"id": "bit.ly/2ODsGly","clicks": 2},{"id": "bit.ly/3rzM0i5","clicks": 1},{"id": "bit.ly/3qAb1s1","clicks": 1},{"id": "bit.ly/3bvcBqO","clicks": 1},{"id": "bit.ly/38lg8Gk","clicks": 1}]</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4.6:58]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">e2e</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario Outline: [4.6:58]</span><span class="scenario-name">validate clicks based on sort units--------{defaultUnits} </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 185</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[4.6:58]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[4.6:58]bg">
+                        <div class="step-container" id="36">
+                            <div class="step-ref bg-step">36</div>
+                            <div class="step-cell passed">* url 'https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[4.6:58]bg">
+                        <div class="step-container" id="37">
+                            <div class="step-ref bg-step">37</div>
+                            <div class="step-cell passed">* configure headers = read('classpath:headers.js')</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="38">
+                            <div class="step-ref passed">38</div>
+                            <div class="step-cell passed">Given param units = -1</div>
+                        </div>
+                        <div class="time-cell passed">4</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="39">
+                            <div class="step-ref passed">39</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">179</div>
+                    </div>
+                    <div class="preformatted" data-parent="39">22:09:30.689 request:
+1 &gt; GET https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks?units=-1
+1 &gt; Accept: */*
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Type: application/json
+1 &gt; Host: api-ssl.bitly.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:09:30.862 response time in milliseconds: 172.25
+1 &lt; 200
+1 &lt; Alt-Svc: clear
+1 &lt; Content-Security-Policy: default-src 'none
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Mar 2021 22:09:30 GMT
+1 &lt; Server: nginx
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Via: 1.1 google
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-XSS-Protection: 1; mode=blockFilter
+{"links":[{"created_at":"2021-03-11T23:09:22+0000","id":"bit.ly/3rzM0i5","link":"https://bit.ly/3rzM0i5","custom_bitlinks":[],"long_url":"https://www.bbc.co.uuuuu/","title":"test","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:43:23+0000","id":"bit.ly/3qAb1s1","link":"https://bit.ly/3qAb1s1","custom_bitlinks":[],"long_url":"https://www.bbc.co.us/","title":"tesrt","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:03:30+0000","id":"bit.ly/3bvcBqO","link":"https://bit.ly/3bvcBqO","custom_bitlinks":[],"long_url":"http://karthik.com/","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:53+0000","id":"bit.ly/38lg8Gk","link":"https://bit.ly/38lg8Gk","custom_bitlinks":[],"long_url":"http://admin.com/","title":"UNIX and Linux System Administration Handbook, Fifth Edtion","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":["Test_Tag"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:14+0000","id":"bit.ly/2ODsGly","link":"https://bit.ly/2ODsGly","custom_bitlinks":[],"long_url":"https://www.google.com/","title":"Google share","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}],"sorted_links":[{"id":"bit.ly/2ODsGly","clicks":2},{"id":"bit.ly/3rzM0i5","clicks":1},{"id":"bit.ly/3qAb1s1","clicks":1},{"id":"bit.ly/3bvcBqO","clicks":1},{"id":"bit.ly/38lg8Gk","clicks":1}]}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="40">
+                            <div class="step-ref passed">40</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="41">
+                            <div class="step-ref passed">41</div>
+                            <div class="step-cell passed">* def result = response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="42">
+                            <div class="step-ref passed">42</div>
+                            <div class="step-cell passed">* match result.sorted_links == [{"id": "bit.ly/2ODsGly","clicks": 2},{"id": "bit.ly/3rzM0i5","clicks": 1},{"id": "bit.ly/3qAb1s1","clicks": 1},{"id": "bit.ly/3bvcBqO","clicks": 1},{"id": "bit.ly/38lg8Gk","clicks": 1}]</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[4.7:59]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">e2e</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario Outline: [4.7:59]</span><span class="scenario-name">validate clicks based on sort unit--------{defaultUnit} </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 196</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[4.7:59]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[4.7:59]bg">
+                        <div class="step-container" id="43">
+                            <div class="step-ref bg-step">43</div>
+                            <div class="step-cell passed">* url 'https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[4.7:59]bg">
+                        <div class="step-container" id="44">
+                            <div class="step-ref bg-step">44</div>
+                            <div class="step-cell passed">* configure headers = read('classpath:headers.js')</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="45">
+                            <div class="step-ref passed">45</div>
+                            <div class="step-cell passed">Given param unit = 'day'</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="46">
+                            <div class="step-ref passed">46</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">192</div>
+                    </div>
+                    <div class="preformatted" data-parent="46">22:09:30.884 request:
+1 &gt; GET https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U/bitlinks/clicks?unit=day
+1 &gt; Accept: */*
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer 48a7fe60034be1eb264102c122d31ea48f4ef04e
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Type: application/json
+1 &gt; Host: api-ssl.bitly.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:09:31.068 response time in milliseconds: 182.85
+1 &lt; 200
+1 &lt; Alt-Svc: clear
+1 &lt; Content-Security-Policy: default-src 'none
+1 &lt; Content-Type: application/json
+1 &lt; Date: Fri, 12 Mar 2021 22:09:30 GMT
+1 &lt; Server: nginx
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Via: 1.1 google
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-XSS-Protection: 1; mode=blockFilter
+{"links":[{"created_at":"2021-03-09T18:03:30+0000","id":"bit.ly/3bvcBqO","link":"https://bit.ly/3bvcBqO","custom_bitlinks":[],"long_url":"http://karthik.com/","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:53+0000","id":"bit.ly/38lg8Gk","link":"https://bit.ly/38lg8Gk","custom_bitlinks":[],"long_url":"http://admin.com/","title":"UNIX and Linux System Administration Handbook, Fifth Edtion","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":["Test_Tag"],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-09T18:04:14+0000","id":"bit.ly/2ODsGly","link":"https://bit.ly/2ODsGly","custom_bitlinks":[],"long_url":"https://www.google.com/","title":"Google share","archived":false,"created_by":"bharathamanik","client_id":"ece654beaf35f9c29f610ffd4fb128702b4bad15","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:09:22+0000","id":"bit.ly/3rzM0i5","link":"https://bit.ly/3rzM0i5","custom_bitlinks":[],"long_url":"https://www.bbc.co.uuuuu/","title":"test","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}},{"created_at":"2021-03-11T23:43:23+0000","id":"bit.ly/3qAb1s1","link":"https://bit.ly/3qAb1s1","custom_bitlinks":[],"long_url":"https://www.bbc.co.us/","title":"tesrt","archived":false,"created_by":"bharathamanik","client_id":"a5e8cebb233c5d07e5c553e917dffb92fec5264d","tags":[],"deeplinks":[],"references":{"group":"https://api-ssl.bitly.com/v4/groups/Bl39i27Ji5U"}}],"sorted_links":[{"id":"bit.ly/2ODsGly","clicks":2},{"id":"bit.ly/3rzM0i5","clicks":1},{"id":"bit.ly/3qAb1s1","clicks":1},{"id":"bit.ly/3bvcBqO","clicks":1},{"id":"bit.ly/38lg8Gk","clicks":1}]}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="47">
+                            <div class="step-ref passed">47</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="48">
+                            <div class="step-ref passed">48</div>
+                            <div class="step-cell passed">* def result = response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="49">
+                            <div class="step-ref passed">49</div>
+                            <div class="step-cell passed">* match result.sorted_links == [{"id": "bit.ly/2ODsGly","clicks": 2},{"id": "bit.ly/3rzM0i5","clicks": 1},{"id": "bit.ly/3qAb1s1","clicks": 1},{"id": "bit.ly/3bvcBqO","clicks": 1},{"id": "bit.ly/38lg8Gk","clicks": 1}]</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>
