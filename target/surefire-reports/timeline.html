@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-3"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"groups[1:8]","start":1054,"end":1909,"title":"groups[1:8] 01:00:01.054-01:00:01.909 contract testing - verify contracts of groups"},{"id":2,"group":1,"content":"groups[2:31]","start":1918,"end":2097,"title":"groups[2:31] 01:00:01.918-01:00:02.097 validate valid  response for group"},{"id":3,"group":1,"content":"groups[3.1:62]","start":2105,"end":2293,"title":"groups[3.1:62] 01:00:02.105-01:00:02.293 validate invalid method calls - response code"},{"id":4,"group":1,"content":"groups[3.2:63]","start":2300,"end":2461,"title":"groups[3.2:63] 01:00:02.300-01:00:02.461 validate invalid method calls - response code"},{"id":5,"group":1,"content":"groups[3.3:64]","start":2469,"end":2634,"title":"groups[3.3:64] 01:00:02.469-01:00:02.634 validate invalid method calls - response code"},{"id":6,"group":1,"content":"groups[3.4:65]","start":2640,"end":2794,"title":"groups[3.4:65] 01:00:02.640-01:00:02.794 validate invalid method calls - response code"}]);
+var container = document.getElementById('visualization');
+var timeline = new vis.Timeline(container);
+timeline.setOptions({ groupOrder: 'content' });
+timeline.setGroups(groups);
+timeline.setItems(items);
+</script>
+  </body>
+</html>

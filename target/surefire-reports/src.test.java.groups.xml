@@ -1,0 +1,140 @@
+<testsuite failures="0" name="src/test/java/groups.feature" skipped="0" tests="6" time="1.681246">
+  <testcase classname="src.test.java.groups" name="contract testing - verify contracts of groups" time="0.83797">
+    <system-out>* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.groups" name="validate valid  response for group" time="0.178849">
+    <system-out>* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.groups" name="validate invalid method calls - response code" time="0.186488">
+    <system-out>* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method post .......................................................... passed
+Then status 403 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.groups" name="validate invalid method calls - response code" time="0.160269">
+    <system-out>* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method post .......................................................... passed
+Then status 403 ........................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method put ........................................................... passed
+Then status 405 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.groups" name="validate invalid method calls - response code" time="0.164271">
+    <system-out>* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method post .......................................................... passed
+Then status 403 ........................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method put ........................................................... passed
+Then status 405 ........................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method Delete ........................................................ passed
+Then status 405 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.groups" name="validate invalid method calls - response code" time="0.1534">
+    <system-out>* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* def result = response.groups ............................................ passed
+* match result == ......................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method post .......................................................... passed
+Then status 403 ........................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method put ........................................................... passed
+Then status 405 ........................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method Delete ........................................................ passed
+Then status 405 ........................................................... passed
+* url 'https://api-ssl.bitly.com/v4/groups' ............................... passed
+* configure headers = read('classpath:headers.js') ........................ passed
+* request '' .............................................................. passed
+* configure charset = null ................................................ passed
+When method patch ......................................................... passed
+Then status 405 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>
